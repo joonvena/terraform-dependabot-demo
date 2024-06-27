@@ -5,7 +5,7 @@ updates:
       - "/"
       - "/dev"
      schedule:
-      interval: "weekly"
+      interval: "daily"
      open-pull-requests-limit: 10
      commit-message:
        prefix: "deps(terraform)"
