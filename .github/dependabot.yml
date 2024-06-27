@@ -13,3 +13,10 @@ updates:
       terraform-deps:
         patterns:
           - "*"
+   - package-ecosystem: "github-actions"
+     directory: "/"
+     schedule:
+       interval: "daily"
+     open-pull-requests-limit: 2
+     commit-message:
+       prefix: "deps(actions)"
