@@ -8,7 +8,7 @@ updates:
       interval: "daily"
      open-pull-requests-limit: 10
      commit-message:
-       prefix: "deps(terraform)"
+       prefix: "dep(terraform)"
      groups:
       terraform-deps:
         patterns:
