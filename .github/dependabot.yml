@@ -15,6 +15,7 @@ updates:
           - "*"
      ignore:
       - dependency-name: "*joonvena/terraform-aiven-posgres*"
+      - dependency-name: "git::ssh://git@github.com/joonvena/terraform-aiven-posgres.git?ref=main"
    - package-ecosystem: "github-actions"
      directories:
       - "/"
