@@ -13,6 +13,8 @@ updates:
       terraform-deps:
         patterns:
           - "*"
+     ignore:
+      - dependency-name: "*joonvena/terraform-aiven-posgres*"
    - package-ecosystem: "github-actions"
      directories:
       - "/"
