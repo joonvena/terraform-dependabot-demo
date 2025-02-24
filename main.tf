@@ -7,3 +7,7 @@ resource "random_string" "random" {
 module "aiven" {
   source = "git@github.com:joonvena/terraform-aiven-posgres.git?ref=main"
 }
+
+module "test" {
+  source = "git@github.com:joonvena/terraform-modules-mono.git?ref=example-module-v0.1.0"
+}
