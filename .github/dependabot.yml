@@ -9,13 +9,6 @@ updates:
      open-pull-requests-limit: 10
      commit-message:
        prefix: "dep(terraform)"
-     groups:
-      terraform-deps:
-        patterns:
-          - "*"
-     ignore:
-      - dependency-name: "*joonvena/terraform-aiven-posgres*"
-      - dependency-name: "git::ssh://git@github.com/joonvena/terraform-aiven-posgres.git?ref=main"
    - package-ecosystem: "github-actions"
      directories:
       - "/"
