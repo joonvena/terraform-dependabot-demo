@@ -2,25 +2,25 @@
 # Manual edits may be lost in future updates.
 
 provider "registry.terraform.io/hashicorp/google" {
-  version     = "5.30.0"
-  constraints = "5.30.0"
+  version     = "6.22.0"
+  constraints = "6.22.0"
   hashes = [
-    "h1:7BqHQdAhqb4QSvKA8ICZMwBYcO1T7OEJm4IjEJpUfpI=",
-    "h1:ORa+Wddyk7HrYt1qjHh3trONb72kqxeAc/JXfKeX9Kk=",
-    "h1:ZGPjInkYFZoc86r7Y2hJeTMGZiW6cRZ9nAzIGdySb3Y=",
-    "h1:tFWLBCrtm/kDPbpm1HnXpzJ4dNpEnGGXfHDZkhYzdqc=",
-    "zh:13169e55958e932aefa03551b63a3c951f18942be048205dc463c33089db232f",
-    "zh:5093845d3150ccc3d99c4f4958679aa1a2cc53e5871620b1ac3dc59c6f72e1d8",
-    "zh:8098f3253d72b5e591d55685234584861738b20fe57ab3124156b2233a71ee48",
-    "zh:816fdb667d6dca429270e09531895c5c912ac5071c7a315ba011488cbf32a38e",
-    "zh:880c38683c0b5f6c9d5314e55c29ddbacede4f1b7e18bebd2bed563756362c42",
-    "zh:881ae2de266958118745a51331ca5308b4f47648e318d679dddf35c6422b292d",
-    "zh:8d1f46aa7cf70fd0de222874ecdbef8587a10c9231aab0e319bf8095863b58d0",
-    "zh:a4c9280a6126ea7a5350a7e3d46d7dcdff440d1bcf401f72c6392b7976400d73",
-    "zh:bcae1f498b2c6d43aba5f6a755969d6e1108c82a77648550b5080d25ea56aabe",
-    "zh:ce4e0f905fe19249ad7cb01123de9a3be82b0310937f8e872e85ba4d70aef031",
-    "zh:d528cdd349ed7142d2288a4b9e03a5d3c1d1b18c9213bc21eb4cc03eca5c7ab2",
+    "h1:5e2tzCw6Xn9QSO9ixDVMui2HH+Z1uQC3HNfl5WT85CA=",
+    "h1:OMn6Os3qVBkqaQ5qNKY3eUa2oMaT3SphT4TYiIYiqP4=",
+    "h1:Wha2keHc9v6LuWG08U2CdnxTllUykQbr7NBxIEEGInU=",
+    "h1:m7PTvKM9DE0iEaUMv3gMzLzBl19+1h++WTo0/iSNFWg=",
+    "zh:121be62239a611b052e1268e38349503a35ca63b77aef7283a75a0e51c7bbf47",
+    "zh:2e268d3fd65bb02cd3b0e11079a54c6ffb2823fe04288db7d576d1ed9c976cc5",
+    "zh:3b04a0ef4541d6597c4578f5cc66e085feae27bd79d40fa02d235ca53b2690f0",
+    "zh:428f001739a63675a44fd1b2b10a4b014481b7e4c320bda3a9fdcae0c6b190a2",
+    "zh:86b33cd155b23b8aebde473b94d5204de90d7fa94cd22fe8817df498eb2721cc",
+    "zh:94ce76f05a93f33429faf74446a44e433b6e60516ebfce2b18deb1e19bccf89e",
+    "zh:9e6c19db937b560dbb3cd42fb9d41057174e4f45fd3a4ce5a13120f4d8a29ed7",
+    "zh:a76ec0384e977887e1c06bca35e21c291781000b2ceac227918f3abf9b5e94e3",
+    "zh:a81eca9e470f9d75d19a0df762de6d9ba232005d56bfed01daf82e010bc4ed12",
+    "zh:cf7ee08d7b64de10fdc2c41d91efe25a18e577ca1b5d2ef0ea9aed10260d2c25",
     "zh:f569b65999264a9416862bca5cd2a6177d94ccb0424f3a4ef424428912b9cb3c",
+    "zh:fbb6b78f41a1f7ff69dd77c7dfee9b50f2b040d8b0010aee0071e6dc632611be",
   ]
 }
 
