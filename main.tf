@@ -9,5 +9,5 @@ module "aiven" {
 }
 
 module "test" {
-  source = "git@github.com:joonvena/terraform-modules-mono.git?ref=example-module-v0.1.0"
+  source = "git@github.com:joonvena/terraform-modules-mono.git?ref=example-module-v0.2.0"
 }
