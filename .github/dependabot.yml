@@ -1,27 +1,27 @@
 version: 2
 updates:
-   - package-ecosystem: "terraform"
-     directories:
-      - "/"
-      - "/dev"
-     schedule:
+  - package-ecosystem: "terraform"
+    directories:
+      - "/terraform/dev"
+      - "/terraform/qa"
+    schedule:
       interval: "daily"
-     open-pull-requests-limit: 10
-     commit-message:
-       prefix: "dep(terraform)"
-     groups:
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: "dep(terraform)"
+    groups:
       terraform-deps:
         patterns:
           - "*"
-     ignore:
+    ignore:
       - dependency-name: "*joonvena/terraform-aiven-posgres*"
       - dependency-name: "git::ssh://git@github.com/joonvena/terraform-aiven-posgres.git?ref=main"
-   - package-ecosystem: "github-actions"
-     directories:
+  - package-ecosystem: "github-actions"
+    directories:
       - "/"
       - "/.github/actions/*"
-     schedule:
-       interval: "daily"
-     open-pull-requests-limit: 2
-     commit-message:
-       prefix: "deps(actions)"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 2
+    commit-message:
+      prefix: "deps(actions)"
